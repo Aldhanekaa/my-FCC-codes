@@ -2,7 +2,7 @@ function sumFibs(num) {
   let a = 1;
   let b = 1;
   let sum = a + b;
-  while(sum < num) {
+  while(b < num) {
     const temp = a;
     a = b;
     b = temp + b;
